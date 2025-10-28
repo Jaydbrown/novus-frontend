@@ -1,5 +1,5 @@
 // ==================== Configuration ====================
-const API_URL = 'http://localhost:5000/api';
+const API_URL = ' https://novus-rpu7.onrender.com/api';
 
 // ==================== State Management ====================
 let currentDate = new Date();
