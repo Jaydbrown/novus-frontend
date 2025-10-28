@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000/api';
+const API_URL = ' https://novus-rpu7.onrender.com/api';
 
 let currentPage = 1;
 let currentCategory = 'all';
@@ -227,4 +227,5 @@ function escapeHtml(text) {
 }
 
 // Make changePage available globally
+
 window.changePage = changePage;
