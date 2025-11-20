@@ -1,5 +1,5 @@
 // ==================== Configuration ====================
-const API_URL = ' https://novus-rpu7.onrender.com/api';
+const API_URL = 'http://localhost:5000/api';
 
 // ==================== State Management ====================
 let currentSlide = 0;
@@ -835,3 +835,4 @@ if (typeof module !== 'undefined' && module.exports) {
     showNotification
   };
 }
+
